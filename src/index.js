@@ -2,12 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Monheader from './Monheader';
+import Chef from './Chef';
+import Component from './Component';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Monheader/>
+    <Chef/>
+    <Component/>
   </React.StrictMode>
 );
 
