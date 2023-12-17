@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Macdo from "./images.jpg";
-import Kebab from "./kebab.jpg";
-import KFC from "./kfc.jpeg";
-import Sandwich from "./sandwich.jpg";
+import Macdo from "./img/images.jpg";
+import Kebab from "./img/kebab.jpg";
+import KFC from "./img/kfc.jpeg";
+import Sandwich from "./img/sandwich.jpg";
 
 function BurgerBlock({ imagePath, restaurantName, burgerName, price }) {
 
@@ -31,8 +31,11 @@ function Component() {
     <div className="cln1"></div>
     <div className="cln2">
 
-        <div className="cln2t">
 
+<div className="cln2y">
+    
+</div>
+        <div className="cln2t">
         <div className='shopsblocks'>
 
 <BurgerBlock

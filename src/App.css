@@ -111,10 +111,25 @@ li {
 }
 
 .cln1{
-  background-color: grey;
+  background-color:black;
 
 }
 
 .cln2{
   background-color: white;
+}
+
+.menu{
+  width: 200px;
+  height: 150px;
+}
+
+.shopsblocks {
+  margin-top: 30px;
+  display: flex; /* Afficher les blocs en ligne */
+  overflow-x: auto; /* Activer la barre de défilement horizontale si nécessaire */
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  width: 100%; /* Largeur maximale du contenant, ajustez selon vos besoins */
+  gap: 10px;
+  justify-content: center;
 }
